@@ -26,12 +26,12 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableViewCell", for: indexPath) as! HomeTableViewCell
-        cell.ImageView.image = UIImage(named: "sampleImage")
-        cell.TitleLabel.text = "これはタイトル"
-        cell.DetailLabel.text = "この写真はサンプルです"
-        cell.WhenLabel.text = "2023/5/7"
-        cell.WhereLabel.text = "箱根"
-        cell.WhoLabel.text = "1人"
+        cell.homeImageView.image = UIImage(named: "sampleImage")
+        cell.titleLabel.text = "これはタイトル"
+        cell.detailLabel.text = "この写真はサンプルです"
+        cell.whenLabel.text = "2023/5/7"
+        cell.whereLabel.text = "箱根"
+        cell.whoLabel.text = "1人"
         
         return cell
     }

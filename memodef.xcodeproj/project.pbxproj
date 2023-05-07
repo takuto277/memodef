@@ -20,6 +20,12 @@
 		9965BDCF2A0756F7005D3BCF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9965BDCD2A0756F7005D3BCF /* HomeViewController.xib */; };
 		9965BDD22A07576B005D3BCF /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9965BDD02A07576B005D3BCF /* HomeTableViewCell.swift */; };
 		9965BDD32A07576B005D3BCF /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9965BDD12A07576B005D3BCF /* HomeTableViewCell.xib */; };
+		9965BDD62A07801F005D3BCF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9965BDD42A07801F005D3BCF /* SearchViewController.swift */; };
+		9965BDD72A07801F005D3BCF /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9965BDD52A07801F005D3BCF /* SearchViewController.xib */; };
+		9965BDDE2A078095005D3BCF /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9965BDDC2A078095005D3BCF /* SearchCollectionViewCell.swift */; };
+		9965BDDF2A078095005D3BCF /* SearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9965BDDD2A078095005D3BCF /* SearchCollectionViewCell.xib */; };
+		9965BDE22A07986A005D3BCF /* ConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9965BDE02A07986A005D3BCF /* ConditionViewController.swift */; };
+		9965BDE32A07986A005D3BCF /* ConditionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9965BDE12A07986A005D3BCF /* ConditionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,12 @@
 		9965BDCD2A0756F7005D3BCF /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		9965BDD02A07576B005D3BCF /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		9965BDD12A07576B005D3BCF /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		9965BDD42A07801F005D3BCF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9965BDD52A07801F005D3BCF /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		9965BDDC2A078095005D3BCF /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		9965BDDD2A078095005D3BCF /* SearchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCollectionViewCell.xib; sourceTree = "<group>"; };
+		9965BDE02A07986A005D3BCF /* ConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionViewController.swift; sourceTree = "<group>"; };
+		9965BDE12A07986A005D3BCF /* ConditionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConditionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +130,12 @@
 				9965BDCD2A0756F7005D3BCF /* HomeViewController.xib */,
 				9965BDD02A07576B005D3BCF /* HomeTableViewCell.swift */,
 				9965BDD12A07576B005D3BCF /* HomeTableViewCell.xib */,
+				9965BDD42A07801F005D3BCF /* SearchViewController.swift */,
+				9965BDD52A07801F005D3BCF /* SearchViewController.xib */,
+				9965BDDC2A078095005D3BCF /* SearchCollectionViewCell.swift */,
+				9965BDDD2A078095005D3BCF /* SearchCollectionViewCell.xib */,
+				9965BDE02A07986A005D3BCF /* ConditionViewController.swift */,
+				9965BDE12A07986A005D3BCF /* ConditionViewController.xib */,
 			);
 			path = memodef;
 			sourceTree = "<group>";
@@ -243,8 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9965BDDF2A078095005D3BCF /* SearchCollectionViewCell.xib in Resources */,
 				9965BDA92A07535B005D3BCF /* LaunchScreen.storyboard in Resources */,
+				9965BDE32A07986A005D3BCF /* ConditionViewController.xib in Resources */,
 				9965BDA62A07535B005D3BCF /* Assets.xcassets in Resources */,
+				9965BDD72A07801F005D3BCF /* SearchViewController.xib in Resources */,
 				9965BDA42A075355005D3BCF /* Main.storyboard in Resources */,
 				9965BDD32A07576B005D3BCF /* HomeTableViewCell.xib in Resources */,
 				9965BDCF2A0756F7005D3BCF /* HomeViewController.xib in Resources */,
@@ -272,10 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9965BDD62A07801F005D3BCF /* SearchViewController.swift in Sources */,
 				9965BDA12A075355005D3BCF /* ViewController.swift in Sources */,
 				9965BDD22A07576B005D3BCF /* HomeTableViewCell.swift in Sources */,
 				9965BD9D2A075355005D3BCF /* AppDelegate.swift in Sources */,
 				9965BD9F2A075355005D3BCF /* SceneDelegate.swift in Sources */,
+				9965BDDE2A078095005D3BCF /* SearchCollectionViewCell.swift in Sources */,
+				9965BDE22A07986A005D3BCF /* ConditionViewController.swift in Sources */,
 				9965BDCE2A0756F7005D3BCF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,12 +8,13 @@
 import UIKit
 
 class HomeTableViewCell: UITableViewCell {
-    @IBOutlet weak var ImageView: UIImageView!
-    @IBOutlet weak var TitleLabel: UILabel!
-    @IBOutlet weak var DetailLabel: UILabel!
-    @IBOutlet weak var WhenLabel: UILabel!
-    @IBOutlet weak var WhereLabel: UILabel!
-    @IBOutlet weak var WhoLabel: UILabel!
+    
+    @IBOutlet weak var homeImageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var detailLabel: UILabel!
+    @IBOutlet weak var whenLabel: UILabel!
+    @IBOutlet weak var whereLabel: UILabel!
+    @IBOutlet weak var whoLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

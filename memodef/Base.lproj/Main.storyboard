@@ -27,10 +27,18 @@
             </objects>
             <point key="canvasLocation" x="753" y="486"/>
         </scene>
+        <!--Condition View Controller-->
+        <scene sceneID="ZuP-fm-Mcl">
+            <objects>
+                <viewController storyboardIdentifier="ConditionView" id="uvq-cb-Qkq" customClass="ConditionViewController" customModule="memodef" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OHI-vS-yGS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1708" y="1218"/>
+        </scene>
         <!--search-->
         <scene sceneID="hro-gR-ULu">
             <objects>
-                <viewController id="tj7-Jp-hAf" sceneMemberID="viewController">
+                <viewController id="tj7-Jp-hAf" customClass="SearchViewController" customModule="memodef" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="search" image="magnifyingglass" catalog="system" id="EVR-MS-yUx"/>
                     <navigationItem key="navigationItem" id="7Ye-8I-YXC"/>
                 </viewController>
