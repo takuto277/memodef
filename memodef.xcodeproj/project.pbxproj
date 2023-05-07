@@ -16,6 +16,10 @@
 		9965BDB42A07535B005D3BCF /* memodefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9965BDB32A07535B005D3BCF /* memodefTests.swift */; };
 		9965BDBE2A07535B005D3BCF /* memodefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9965BDBD2A07535B005D3BCF /* memodefUITests.swift */; };
 		9965BDC02A07535B005D3BCF /* memodefUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9965BDBF2A07535B005D3BCF /* memodefUITestsLaunchTests.swift */; };
+		9965BDCE2A0756F7005D3BCF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9965BDCC2A0756F7005D3BCF /* HomeViewController.swift */; };
+		9965BDCF2A0756F7005D3BCF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9965BDCD2A0756F7005D3BCF /* HomeViewController.xib */; };
+		9965BDD22A07576B005D3BCF /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9965BDD02A07576B005D3BCF /* HomeTableViewCell.swift */; };
+		9965BDD32A07576B005D3BCF /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9965BDD12A07576B005D3BCF /* HomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		9965BDB92A07535B005D3BCF /* memodefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memodefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9965BDBD2A07535B005D3BCF /* memodefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memodefUITests.swift; sourceTree = "<group>"; };
 		9965BDBF2A07535B005D3BCF /* memodefUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memodefUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9965BDCC2A0756F7005D3BCF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9965BDCD2A0756F7005D3BCF /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		9965BDD02A07576B005D3BCF /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		9965BDD12A07576B005D3BCF /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				9965BDA52A07535B005D3BCF /* Assets.xcassets */,
 				9965BDA72A07535B005D3BCF /* LaunchScreen.storyboard */,
 				9965BDAA2A07535B005D3BCF /* Info.plist */,
+				9965BDCC2A0756F7005D3BCF /* HomeViewController.swift */,
+				9965BDCD2A0756F7005D3BCF /* HomeViewController.xib */,
+				9965BDD02A07576B005D3BCF /* HomeTableViewCell.swift */,
+				9965BDD12A07576B005D3BCF /* HomeTableViewCell.xib */,
 			);
 			path = memodef;
 			sourceTree = "<group>";
@@ -234,6 +246,8 @@
 				9965BDA92A07535B005D3BCF /* LaunchScreen.storyboard in Resources */,
 				9965BDA62A07535B005D3BCF /* Assets.xcassets in Resources */,
 				9965BDA42A075355005D3BCF /* Main.storyboard in Resources */,
+				9965BDD32A07576B005D3BCF /* HomeTableViewCell.xib in Resources */,
+				9965BDCF2A0756F7005D3BCF /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9965BDA12A075355005D3BCF /* ViewController.swift in Sources */,
+				9965BDD22A07576B005D3BCF /* HomeTableViewCell.swift in Sources */,
 				9965BD9D2A075355005D3BCF /* AppDelegate.swift in Sources */,
 				9965BD9F2A075355005D3BCF /* SceneDelegate.swift in Sources */,
+				9965BDCE2A0756F7005D3BCF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
