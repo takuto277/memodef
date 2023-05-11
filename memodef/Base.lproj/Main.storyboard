@@ -9,7 +9,7 @@
         <!--creat-->
         <scene sceneID="3n9-v4-Q33">
             <objects>
-                <viewController id="cU0-Q0-tWl" sceneMemberID="viewController">
+                <viewController id="cU0-Q0-tWl" customClass="CreateViewController" customModule="memodef" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="creat" image="pencil" catalog="system" id="S0Z-vf-h4Q"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ark-kU-Jqw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -52,6 +52,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="mSa-5k-hAP" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WeC-ER-LEs">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>

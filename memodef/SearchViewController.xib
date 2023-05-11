@@ -47,7 +47,24 @@
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DKL-I7-cNG">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                            <subviews>
+                                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="9bF-QT-qpL">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="qWt-2n-OzN"/>
+                                    </connections>
+                                </searchBar>
+                            </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="9bF-QT-qpL" firstAttribute="top" secondItem="DKL-I7-cNG" secondAttribute="top" id="5DI-eW-Zjp"/>
+                                <constraint firstItem="9bF-QT-qpL" firstAttribute="leading" secondItem="DKL-I7-cNG" secondAttribute="leading" id="6uU-Wm-cTe"/>
+                                <constraint firstItem="9bF-QT-qpL" firstAttribute="centerX" secondItem="DKL-I7-cNG" secondAttribute="centerX" id="Lfl-wu-vPh"/>
+                                <constraint firstItem="9bF-QT-qpL" firstAttribute="centerY" secondItem="DKL-I7-cNG" secondAttribute="centerY" id="TKJ-lx-017"/>
+                                <constraint firstAttribute="bottom" secondItem="9bF-QT-qpL" secondAttribute="bottom" id="bQ2-Ad-bkd"/>
+                                <constraint firstAttribute="trailing" secondItem="9bF-QT-qpL" secondAttribute="trailing" id="bsn-B9-BBR"/>
+                            </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zb1-ih-1UQ">
                             <rect key="frame" x="0.0" y="50" width="375" height="50"/>

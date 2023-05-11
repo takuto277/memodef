@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		995454AE2A0D202300210C0B /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995454AC2A0D202300210C0B /* CreateViewController.swift */; };
+		995454AF2A0D202300210C0B /* CreateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 995454AD2A0D202300210C0B /* CreateViewController.xib */; };
 		9965BD9D2A075355005D3BCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9965BD9C2A075355005D3BCF /* AppDelegate.swift */; };
 		9965BD9F2A075355005D3BCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9965BD9E2A075355005D3BCF /* SceneDelegate.swift */; };
 		9965BDA12A075355005D3BCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9965BDA02A075355005D3BCF /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		995454AC2A0D202300210C0B /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		995454AD2A0D202300210C0B /* CreateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateViewController.xib; sourceTree = "<group>"; };
 		9965BD992A075355005D3BCF /* memodef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memodef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9965BD9C2A075355005D3BCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9965BD9E2A075355005D3BCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				9965BDDD2A078095005D3BCF /* SearchCollectionViewCell.xib */,
 				9965BDE02A07986A005D3BCF /* ConditionViewController.swift */,
 				9965BDE12A07986A005D3BCF /* ConditionViewController.xib */,
+				995454AC2A0D202300210C0B /* CreateViewController.swift */,
+				995454AD2A0D202300210C0B /* CreateViewController.xib */,
 			);
 			path = memodef;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 				9965BDE32A07986A005D3BCF /* ConditionViewController.xib in Resources */,
 				9965BDA62A07535B005D3BCF /* Assets.xcassets in Resources */,
 				9965BDD72A07801F005D3BCF /* SearchViewController.xib in Resources */,
+				995454AF2A0D202300210C0B /* CreateViewController.xib in Resources */,
 				9965BDA42A075355005D3BCF /* Main.storyboard in Resources */,
 				9965BDD32A07576B005D3BCF /* HomeTableViewCell.xib in Resources */,
 				9965BDCF2A0756F7005D3BCF /* HomeViewController.xib in Resources */,
@@ -295,6 +302,7 @@
 			files = (
 				9965BDD62A07801F005D3BCF /* SearchViewController.swift in Sources */,
 				9965BDA12A075355005D3BCF /* ViewController.swift in Sources */,
+				995454AE2A0D202300210C0B /* CreateViewController.swift in Sources */,
 				9965BDD22A07576B005D3BCF /* HomeTableViewCell.swift in Sources */,
 				9965BD9D2A075355005D3BCF /* AppDelegate.swift in Sources */,
 				9965BD9F2A075355005D3BCF /* SceneDelegate.swift in Sources */,
