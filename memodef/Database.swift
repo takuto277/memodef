@@ -12,7 +12,7 @@ class Database {
     
     var db: OpaquePointer?
     
-    let dbfile: String = "sample.db"
+    let dbfile: String = "memory.db"
     
     func openDB() {
         let fileURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent(self.dbfile)
@@ -23,8 +23,10 @@ class Database {
         }
     }
     
+    // CREATE TABLE [テーブル名] ([カラム名] [データ型], [カラム名] [データ型] ・・・) age INTEGER
+    
     func createTable() {
-        let createTable = "CREATE TABLE sampleTable (name TEXT, age INTEGER)"
+        let createTable = "CREATE TABLE memoryTable (image TEXT, title TEXT, detail TEXT, date TEXT, place TEXT, withPerson TEXT)"
         if sqlite3_exec(db, createTable, nil, nil, nil) != SQLITE_OK {
             print("テーブルの作成に失敗しました。")
         } else {
@@ -32,10 +34,13 @@ class Database {
         }
     }
     
-    func insert() {
+    // INSERT INTO [テーブル名] ([カラム名], [カラム名]・・・) VALUES ([データ], [データ]・・・)
+    
+    //構造体で持たせる
+    func insert(image: String, title: String, detail: String, date: String, place: String, withPerson: String) {
         var stmt: OpaquePointer?
         
-        let queryString = "INSERT INTO sampleTable (name, age) VALUES ('aaa', 12)"
+        let queryString = "INSERT INTO sampleTable (image, title, detail, date, place, withPerson) VALUES (\(image), \(title),\(detail),\(date),\(place),\(withPerson))"
         
         // クエリを準備する
         if sqlite3_prepare(db, queryString, -1, &stmt, nil) != SQLITE_OK{
@@ -55,7 +60,7 @@ class Database {
     }
     
     func select(){
-        let queryString = "SELECT * FROM sampleTable"
+        let queryString = "SELECT * FROM memoryTable"
         
         var stmt:OpaquePointer?
         
@@ -75,6 +80,8 @@ class Database {
             print("age : \(age)")
         }
     }
+    
+    // UPDATE [テーブル名] SET [カラム名] = [データ] WHERE [カラム名] = [データ]
     
     func update() {
         var stmt: OpaquePointer?
@@ -97,6 +104,8 @@ class Database {
         
         print("データが更新されました")
     }
+    
+    // DELETE FROM [テーブル名] WHERE [カラム名] = [データ]
     
     func delete() {
         var stmt: OpaquePointer?

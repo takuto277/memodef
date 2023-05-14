@@ -10,7 +10,13 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateViewController" customModule="memodef" customModuleProvider="target">
             <connections>
+                <outlet property="dateTextField" destination="nk3-z7-lN4" id="fAf-Ew-54W"/>
+                <outlet property="detailTextView" destination="w85-Jw-K30" id="Fly-QW-Bbl"/>
+                <outlet property="memoryImage" destination="LXE-DO-vRT" id="CJN-HL-VoO"/>
+                <outlet property="placeTextField" destination="WON-w4-Rwv" id="Dm3-if-h1l"/>
+                <outlet property="titelTextField" destination="DkT-vz-Upj" id="Uap-Nz-R94"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="withPersonTextField" destination="N2h-kr-gxg" id="Fi8-6E-aUz"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -132,7 +138,6 @@
                                         <constraint firstItem="N2h-kr-gxg" firstAttribute="width" secondItem="nk3-z7-lN4" secondAttribute="width" id="BEp-Kr-WJr"/>
                                         <constraint firstItem="W0R-Fn-EQ5" firstAttribute="width" secondItem="bTB-le-LQC" secondAttribute="width" id="Cms-hL-3L4"/>
                                         <constraint firstItem="AEX-5t-YKW" firstAttribute="width" secondItem="bTB-le-LQC" secondAttribute="width" id="JHg-SW-WEw"/>
-                                        <constraint firstItem="w85-Jw-K30" firstAttribute="leading" secondItem="DkT-vz-Upj" secondAttribute="leading" id="fF2-eE-eSn"/>
                                         <constraint firstItem="ZN0-3m-EVG" firstAttribute="width" secondItem="bTB-le-LQC" secondAttribute="width" id="vYY-21-F6Z"/>
                                     </constraints>
                                 </stackView>
@@ -151,6 +156,9 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                    <connections>
+                                        <action selector="pushCreateMemoryButton:" destination="-1" eventType="touchUpInside" id="BSU-5C-7cG"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>

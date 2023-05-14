@@ -8,22 +8,24 @@
 import UIKit
 
 class CreateViewController: UIViewController {
-
+    
+    @IBOutlet weak var memoryImage: UIImageView!
+    @IBOutlet weak var dateTextField: UITextField!
+    @IBOutlet weak var placeTextField: UITextField!
+    @IBOutlet weak var withPersonTextField: UITextField!
+    @IBOutlet weak var titelTextField: UITextField!
+    @IBOutlet weak var detailTextView: UITextView!
+    
+    
+    @IBAction func pushCreateMemoryButton(_ sender: Any) {
+        // TODO: ボタンを押された時、dbのinsertを呼び出す
+        // TODO: UI部品から全て削除
+        // TODO: 記載されていない場合はアラートを呼び出すような仕組み
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
+    
 }
