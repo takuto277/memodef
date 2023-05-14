@@ -14,7 +14,7 @@
                 <outlet property="detailTextView" destination="w85-Jw-K30" id="Fly-QW-Bbl"/>
                 <outlet property="memoryImage" destination="LXE-DO-vRT" id="CJN-HL-VoO"/>
                 <outlet property="placeTextField" destination="WON-w4-Rwv" id="Dm3-if-h1l"/>
-                <outlet property="titelTextField" destination="DkT-vz-Upj" id="Uap-Nz-R94"/>
+                <outlet property="titleTextField" destination="DkT-vz-Upj" id="Uap-Nz-R94"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="withPersonTextField" destination="N2h-kr-gxg" id="Fi8-6E-aUz"/>
             </connections>

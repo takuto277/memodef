@@ -36,11 +36,10 @@ class Database {
     
     // INSERT INTO [テーブル名] ([カラム名], [カラム名]・・・) VALUES ([データ], [データ]・・・)
     
-    //構造体で持たせる
-    func insert(image: String, title: String, detail: String, date: String, place: String, withPerson: String) {
+    func insert(memoryInfoModel: MemoryInfoModel) {
         var stmt: OpaquePointer?
         
-        let queryString = "INSERT INTO sampleTable (image, title, detail, date, place, withPerson) VALUES (\(image), \(title),\(detail),\(date),\(place),\(withPerson))"
+        let queryString = "INSERT INTO sampleTable (image, title, detail, date, place, withPerson) VALUES (\(memoryInfoModel.image), \(memoryInfoModel.title),\(memoryInfoModel.detail),\(memoryInfoModel.date),\(memoryInfoModel.place),\(memoryInfoModel.withPerson))"
         
         // クエリを準備する
         if sqlite3_prepare(db, queryString, -1, &stmt, nil) != SQLITE_OK{

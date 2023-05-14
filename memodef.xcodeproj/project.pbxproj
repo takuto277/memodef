@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		993F7C472A10A01900FE8045 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 993F7C462A10A01900FE8045 /* SQLite */; };
 		993F7C492A10B10A00FE8045 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F7C482A10B10900FE8045 /* Database.swift */; };
+		993F7C4B2A1148E100FE8045 /* MemoryInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F7C4A2A1148E100FE8045 /* MemoryInfoModel.swift */; };
 		995454AE2A0D202300210C0B /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995454AC2A0D202300210C0B /* CreateViewController.swift */; };
 		995454AF2A0D202300210C0B /* CreateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 995454AD2A0D202300210C0B /* CreateViewController.xib */; };
 		9965BD9D2A075355005D3BCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9965BD9C2A075355005D3BCF /* AppDelegate.swift */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		993F7C482A10B10900FE8045 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		993F7C4A2A1148E100FE8045 /* MemoryInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryInfoModel.swift; sourceTree = "<group>"; };
 		995454AC2A0D202300210C0B /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		995454AD2A0D202300210C0B /* CreateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateViewController.xib; sourceTree = "<group>"; };
 		9965BD992A075355005D3BCF /* memodef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memodef.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +149,7 @@
 				995454AC2A0D202300210C0B /* CreateViewController.swift */,
 				995454AD2A0D202300210C0B /* CreateViewController.xib */,
 				993F7C482A10B10900FE8045 /* Database.swift */,
+				993F7C4A2A1148E100FE8045 /* MemoryInfoModel.swift */,
 			);
 			path = memodef;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				9965BDD62A07801F005D3BCF /* SearchViewController.swift in Sources */,
 				9965BDA12A075355005D3BCF /* ViewController.swift in Sources */,
 				995454AE2A0D202300210C0B /* CreateViewController.swift in Sources */,
+				993F7C4B2A1148E100FE8045 /* MemoryInfoModel.swift in Sources */,
 				9965BDD22A07576B005D3BCF /* HomeTableViewCell.swift in Sources */,
 				9965BD9D2A075355005D3BCF /* AppDelegate.swift in Sources */,
 				9965BD9F2A075355005D3BCF /* SceneDelegate.swift in Sources */,
